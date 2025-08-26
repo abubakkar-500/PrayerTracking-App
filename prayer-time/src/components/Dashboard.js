@@ -8,7 +8,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchReport = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/prayers/report");
+        const res = await fetch("prayer-tracking-app-backend.vercel.app/api/prayers/report");
         const data = await res.json();
         setReport(data);
       } catch (err) {
