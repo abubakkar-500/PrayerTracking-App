@@ -3,7 +3,7 @@ import axios from "axios";
 import dayjs from "dayjs";
 import "./App.css";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API = import.meta.env.VITE_API_URL || "prayer-tracking-app-backend.vercel.app";
 
 const PRAYERS = ["Fajr", "Dhuhr", "Asr", "Maghrib", "Isha"];
 
